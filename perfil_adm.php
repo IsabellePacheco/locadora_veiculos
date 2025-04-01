@@ -65,6 +65,7 @@
                                     Tipo:
                                 </label>
                                 <select class="form-select" name="tipo" id="tipo" required>
+                                    <option value="empty" disabled selected></option>
                                     <option value="carro">Carro</option>
                                     <option value="moto">Moto</option>
                                 </select>
@@ -72,7 +73,7 @@
                         </form>
                     </div>
 
-                    
+
                 </div>
             </div>
         </div>
