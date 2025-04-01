@@ -70,12 +70,23 @@
                                     <option value="moto">Moto</option>
                                 </select>
                             </div>
+
+                            <button  class="sbtn btn-dange w-100" type="submit" name="adicionar" >
+                                Adicionar veiculo
+                            </button>
                         </form>
                     </div>
-
-
                 </div>
             </div>
+
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     
