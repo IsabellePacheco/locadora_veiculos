@@ -1,7 +1,7 @@
 # LOCADORA DE VEICULOS
 
 
-Nessa atividade foi proposto para criarmos um site sobre locadora de veiculos, com tela de login,perfil de adm e perfil de usuario, para relembrar sobre mais sobre boostratp.
+Nessa atividade foi proposto para criarmos um site sobre locadora de veiculos, com tela de login,perfil de adm e perfil de usuario, para relembrar mais sobre boostratp.
 
 ## TELA DE LOGIN
 <img width="301" alt="image" src="https://github.com/user-attachments/assets/ce0ead88-c3f0-4024-a188-eef92c386ba2" />
