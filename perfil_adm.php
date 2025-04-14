@@ -167,8 +167,8 @@
                                                     </button>
 
                                                     <!-- veiculo disponível -->
-                                                    <input type="number" name="dias" class="form-control" value="1" min="5" required>
-                                                    <button class="btn btn-primary" name="alugar" type="submit">
+                                                    <input type="number"  name="dias" class="form-control days-input" value="1" min="1" required>
+                                                    <button class="btn btn-primary " name="alugar" type="submit">
                                                         Alugar
                                                     </button>
 
