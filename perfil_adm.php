@@ -9,14 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>ADM - Locadora de veícolos</title>
+    <title>ADM - Locadora de veículos</title>
 </head>
 <body class="container py-4">
     <div class="container py-4">
         <!-- Barra de informações de usuario -->
         <div class="row mb-4">
             <div class="col-md-12">
-                <div class="d-flex justify-content-between alien-items-center inicio">
+                <div class="d-flex justify-content-between align-items-center inicio">
                     <h1>Lista de Locadora de veículos</h1>
                     <div class="d-flex align-items-center gap-3 user-info mx-3">
                         <span class="user-icon">
@@ -65,28 +65,45 @@
                                     Tipo:
                                 </label>
                                 <select class="form-select" name="tipo" id="tipo" required>
-                                    <option value="empty" disabled selected></option>
                                     <option value="carro">Carro</option>
                                     <option value="moto">Moto</option>
                                 </select>
                             </div>
-
-                            <button  class="sbtn btn-dange w-100" type="submit" name="adicionar" >
-                                Adicionar veiculo
+                            <button class="btn btn-success w-100" type="submit" name="adicionar">
+                                Adicionar veículo
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
-
             <div class="col-md-6">
-                <div class="card h-100">
+                <card class="card h-100">
                     <div class="card-header">
-                        
+                        <h4 class="mb-0">
+                            Calcular a previsão de aluguel
+                        </h4>
                     </div>
-                </div>
+                    <div class="card-body">
+                        <form action="post" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="tipo" class="input-label">
+                                    Tipo de Veículo: 
+                                </label>
+                                <select name="tipo" id="tipo" class="form-select" required>
+                                    <option value="carro">Carro</option>
+                                    <option value="moto">Moto</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="quantidade" class="form-label">
+                                    Quantidade de dias
+                                </label>
+                                <input type="number" name="dias_calculo" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </card>
             </div>
-
         </div>
     </div>
     
